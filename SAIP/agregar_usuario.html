@@ -1,0 +1,62 @@
+<html>
+
+ <head>
+  <title>Agregar Usuario</title>
+ </head>
+ <body>
+
+ <form action="controlador.php" method="POST">
+ <input type="hidden" name="accion" value="crear_usuario"/>
+
+ <table width="25%" align="center" border="1">
+   <tr>   
+       <td colspan="2" align="center" bgcolor="#f31313"> Ingrese los Datos del Usuario </td>
+       
+   </tr>
+
+   <tr>   
+       <td width="80px">Login:</td>
+       <td><input type="text" size="12" maxlength="12" name="login" id="login" placeholder="Ingrese el login" required></td>
+   </tr>
+
+   <tr>   
+       <td>Clave:</td>
+       <td><input type="password" size="12" maxlength="16" name="clave" id="clave" placeholder="Ingrese contraseña" required></td>
+   </tr>
+
+   <tr>   
+       <td>Nivel:</td>
+       <td>
+            <select name="nivel" id="nivel">
+             <option value="S">Seleccione...</option>
+             <option value="A">Administrador</option>
+             <option value="I">Invitado</option>
+            </select>
+       </td>
+   </tr>
+
+   <tr>   
+       <td>Estatus:</td>
+       <td>
+            <select name="estatus" id="estatus">
+             <option value="S">Seleccione...</option>
+             <option value="A">Activo</option>
+             <option value="I">Inactivo</option>
+            </select>
+       </td>
+   </tr>
+
+   <tr>   
+       <td colspan="2" align="center">
+       <input type="reset" value="Borrar">
+       <input type="submit" value="Guardar">
+       </td>
+
+   </tr>
+
+ </table>
+
+ </form>
+ </body>
+
+</html>

@@ -1,0 +1,26 @@
+.red
+	{
+		color: red;
+	}
+
+.form
+	{
+		background-color: #FFFFFF;
+		width: 80%;
+		border-radius:10px;
+		border: 1px;
+
+	}
+
+fieldset 
+	{
+		width: 80%; 
+		background-color:#f6f6f6;  
+		padding: 6px; 
+		display: block; 
+	}
+
+	textarea 
+	{
+    	height:70px;
+	}

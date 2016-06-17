@@ -1,0 +1,40 @@
+.red
+{
+	color: red;
+}
+table, table td, table tr {
+	padding:0px;
+	border-spacing: 0px;
+}
+
+table {
+	background-color: #000000;
+	border:1px black solid;
+	border-radius:5px;
+	min-width:400px;
+	font-family: Helvetica,Arial;
+}
+
+table td {
+	padding:6px;
+}
+
+table tr:first-child td:first-child {
+	border-radius:5px 0px 0px 0px;
+}
+
+table tr:first-child td:last-child {
+	border-radius:0px 5px 0px 0px;
+}
+
+table tr:last-child td:first-child {
+	border-radius:0px 0px 0px 5px;
+}
+
+table tr:last-child td:last-child {
+	border-radius:0px 0px 5px 0px;
+}
+
+table td:not(:last-child) {
+	border-right:0px #666 solid;
+}

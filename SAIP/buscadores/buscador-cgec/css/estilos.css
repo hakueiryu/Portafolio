@@ -1,0 +1,58 @@
+body
+{
+	color: black;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.container
+{
+	width: 800px;
+	min-height: 600px;
+	margin: auto;
+	padding: 20px;
+	background-color: #FFFFFF;
+	border: solid 1px #CCCCCC;
+}
+.center
+{
+	text-align: center;
+}
+.form input
+{
+	width: 80%;
+	padding: 6px;
+}
+.footer
+{
+	font-size: 14px;
+	color: darkgray;
+
+}
+#resultados
+{
+	min-height: 290px;
+}
+.codigo
+{
+	margin-bottom: 10px;
+	background-color: #F1F1F1;
+	padding: 5px;
+}
+
+.titulo
+{
+	font-size: 22px;
+	text-transform: uppercase;
+}
+.contenido
+{
+	font-size: 16px;
+	color: red;
+	text-decoration: none;
+}
+td a
+{
+
+		font-size: 16px;
+	color: red;
+	text-decoration: none;
+}

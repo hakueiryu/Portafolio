@@ -1,0 +1,54 @@
+@charset "UTF-8";
+.tabla
+{
+	width: 100%;
+}
+
+td, th, .tabla
+{
+	border-width: 2px;
+	border-color: :#000000;
+	border-style: solid;
+}
+
+@media screen and (max-width: 720px)
+{
+	table, thead, tr, tbody, td{
+		display: block;
+	}
+
+thead tr 
+{
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+}
+
+td
+{
+	border: none;
+	border-bottom: 1px solid #eee;
+	position: relative;
+	padding-left: 50%;
+}
+
+td:before 
+{
+	position: absolute;
+	top: 6px;
+	left: 6px;
+	width: 45%;
+	padding-right: 10px;
+	white-space: nowrap;
+}
+
+td:nth-of-type(1):before { content: "Nro";}
+td:nth-of-type(2):before { content: "Codigo";}
+td:nth-of-type(3):before { content: "Entidad";}
+td:nth-of-type(4):before { content: "Año de Aprovación";}
+td:nth-of-type(5):before { content: "Nombre del Proyecto";}
+td:nth-of-type(6):before { content: "Inspección";}
+td:nth-of-type(7):before { content: "Estatus";}
+td:nth-of-type(8):before { content: "Editar";}
+td:nth-of-type(9):before { content: "Eliminar";}
+}
